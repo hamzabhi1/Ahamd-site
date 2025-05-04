@@ -1,0 +1,295 @@
+/* CSS Document */
+*{margin: 0; padding: 0; text-decoration: none; box-sizing: border-box;} 
+
+body{
+    background-color: white;
+    min-height: auto;
+    width: 100%;
+}
+.nav-bar{
+    position: fixed;
+    height: 15px;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    border: 0.5px solid #F3C623;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    box-shadow: #F3C623 0px 1px 0px , #F3C623 0px 1px 2px , #F3C623 0px 2px 4px ;
+    background-color: #FA812F;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "nunito", sans-serif;
+    align-items: center;
+    overflow: hidden;
+}
+.nav-bar .logo img{
+    height: 3.5rem;
+    width: auto;
+    border-radius: 100%;
+}
+.nav-bar h1{
+    color: white;
+}
+.bags{
+    margin-top: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bag1 img{
+    height: 20rem;
+    width: auto;
+}
+.bag2 img{
+    height: 20rem;
+    width: auto;
+    background: none;
+}
+.bag3 img{
+    height: 20rem;
+    width: auto;
+}
+.bag4 img{
+    height: 20rem;
+    width: auto;
+}
+.bag5 img{
+    height: 20rem;
+    width: auto;
+}
+.bag6 img{
+    height: 20rem;
+    width: auto;
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    border: 1px solid #F3C623;
+    background-color: #FA812F;
+    border-radius: 6px;
+    padding: 2px 4px;
+    color: white;
+}
+p{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #F3C623;
+    margin-top: 80px;
+    border: 1px solid #F3C623;
+    border-radius: 18px;
+    height: 30px;
+    font-size: 1.5rem;
+
+}
+.Brush{
+    margin-top: 35px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.brush1 img{
+    height: 20rem;
+    width: auto;
+}
+.brush2 img{
+    height: 20rem;
+    width: auto;
+    background: none;
+}
+.brush3 img{
+    height: 20rem;
+    width: auto;
+}
+.brush4 img{
+    height: 20rem;
+    width: auto;
+}
+.brush5 img{
+    height: 20rem;
+    width: auto;
+}
+.brush6 img{
+    height: 20rem;
+    width: auto;
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    border: 1px solid #F3C623;
+    background-color: #FA812F;
+    border-radius: 6px;
+    padding: 2px 4px;
+    color: white;
+}
+.hair{
+    margin-top: 35px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.hair1 img{
+    height: 20rem;
+    width: auto;
+}
+.hair2 img{
+    height: 20rem;
+    width: auto;
+    background: none;
+}
+.hair3 img{
+    height: 20rem;
+    width: auto;
+}
+.hair4 img{
+    height: 20rem;
+    width: auto;
+}
+
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    border: 1px solid #F3C623;
+    background-color: #FA812F;
+    border-radius: 6px;
+    padding: 2px 4px;
+    color: white;
+}
+footer{
+    margin-top: 25px;
+    background-color: #F3C623;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color: white;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+@media (max-width: 858px){
+    .nav-bar{
+        height: 10px;
+    }
+    .bags{
+        margin-top: 15px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .bag1 img{
+        height: 10rem;
+        width: auto;
+    }
+    .bag2 img{
+        height: 10rem;
+        width: auto;
+        background: none;
+    }
+    .bag3 img{
+        height: 10rem;
+        width: auto;
+    }
+    .bag4 img{
+        height: 10rem;
+        width: auto;
+    }
+    .bag5 img{
+        height: 10rem;
+        width: auto;
+    }
+    .bag6 img{
+        height: 10rem;
+        width: auto;
+    }
+    button{
+        border: 1px solid #F3C623;
+        background-color: #FA812F;
+        border-radius: 6px;
+        padding: 2px 4px;
+        color: white;
+
+    }
+    .Brush{
+        margin-top: 35px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .brush1 img{
+        height: 10rem;
+        width: auto;
+    }
+    .brush2 img{
+        height: 10rem;
+        width: auto;
+        background: none;
+    }
+    .brush3 img{
+        height: 10rem;
+        width: auto;
+    }
+    .brush4 img{
+        height: 10rem;
+        width: auto;
+    }
+    .brush5 img{
+        height: 10rem;
+        width: auto;
+    }
+    .brush6 img{
+        height: 10rem;
+        width: auto;
+    }
+    .hair{
+        margin-top: 35px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .hair1 img{
+        height: 10rem;
+        width: auto;
+    }
+    .hair2 img{
+        height: 10rem;
+        width: auto;
+        background: none;
+    }
+    .hair3 img{
+        height: 10rem;
+        width: auto;
+    }
+    .hair4 img{
+        height: 10rem;
+        width: auto;
+    }
+}
